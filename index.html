@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f6f2">
+  <meta name="description"
+    content="SportViva: descubra modalidades esportivas, benefícios e encontre sua próxima paixão pelo movimento.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <title>SportViva | Viva o movimento</title>
+</head>
+
+<body>
+  <header class="header" id="inicio">
+    <a class="logo" href="index.html">
+      <span class="logo-sport">SPORT</span><span class="logo-viva">VIVA</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#modalidades">Modalidades</a>
+      <a href="#proposito">Nosso propósito</a>
+      <a href="#explorar">Comece aqui</a>
+    </nav>
+
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Menu para celular" hidden>
+    <a href="#modalidades">Modalidades</a>
+    <a href="#proposito">Nosso propósito</a>
+    <a href="#explorar">Comece aqui</a>
+  </nav>
+
+  <main>
+    <section class="intro" aria-labelledby="intro-title">
+      <p class="eyebrow"><span class="eyebrow-line"></span> SUA JORNADA COMEÇA AQUI</p>
+      <h1 id="intro-title">O MOVIMENTO<br><em>TRANSFORMA</em> TUDO</h1>
+      <p class="intro-description">Conheça novos esportes. Descubra seus benefícios.<br>Encontre a modalidade que combina com você.</p>
+    </section>
+
+    <section class="hero" aria-label="Atletas praticando esportes">
+      <div class="hero-image" role="img" aria-label="Atletas correndo em uma pista de atletismo"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-topline"><span>SPORTVIVA / EDIÇÃO 01</span><span>ESPORTE É PARA TODOS</span></div>
+      <div class="hero-content">
+        <p>DESCUBRA O SEU PRÓXIMO DESAFIO</p>
+        <h2>ENCONTRE<br>SEU RITMO</h2>
+        <a class="button button-light" href="#modalidades">EXPLORAR MODALIDADES</a>
+      </div>
+      <div class="hero-index">01 — 03</div>
+    </section>
+
+    <section class="explore" id="explorar" aria-labelledby="explore-title">
+      <div class="explore-copy">
+        <p class="eyebrow">/ SEU PRIMEIRO PASSO</p>
+        <h2 id="explore-title">UM ESPORTE.<br><span>INFINITAS</span><br>POSSIBILIDADES</h2>
+      </div>
+      <div class="explore-side">
+        <p>Você não precisa ser atleta para começar. Explore diferentes modalidades, conheça seus benefícios e descubra novas formas de se movimentar.</p>
+        <a class="button button-light" href="#modalidades">CONHECER OS ESPORTES</a>
+      </div>
+    </section>
+
+    <section class="modalities" id="modalidades" aria-labelledby="modalities-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">/ ENCONTRE SUA MODALIDADE</p>
+          <h2 id="modalities-title">EXPLORE O ESPORTE</h2>
+        </div>
+        <span class="section-count">TRÊS CAMINHOS PARA COMEÇAR</span>
+      </div>
+
+      <div class="sports-grid">
+
+        <article class="sport-card">
+          <a class="sport-link" href="corrida.html" aria-label="Conhecer a corrida">
+            <div class="sport-photo running" role="img" aria-label="Pessoa praticando corrida"></div>
+          </a>
+          <div class="sport-info">
+            <div>
+              <span>01 / RESISTÊNCIA</span>
+              <h3>CORRIDA</h3>
+            </div>
+            <span class="card-arrow" aria-hidden="true"></span>
+          </div>
+          <p>Movimento, resistência e liberdade em cada passo.</p>
+        </article>
+
+        <article class="sport-card">
+          <a class="sport-link" href="volei.html" aria-label="Conhecer o vôlei">
+            <div class="sport-photo volei" role="img" aria-label="Quadra de vôlei"></div>
+          </a>
+          <div class="sport-info">
+            <div>
+              <span>02 / ESPORTE COLETIVO</span>
+              <h3>VÔLEIBOL</h3>
+            </div>
+            <span class="card-arrow" aria-hidden="true"></span>
+          </div>
+          <p>Trabalho em equipe, agilidade e estratégia.</p>
+        </article>
+
+        <article class="sport-card">
+          <a class="sport-link" href="musculacao.html" aria-label="Conhecer a musculação">
+            <div class="sport-photo fitness" role="img" aria-label="Pessoa treinando em academia"></div>
+          </a>
+          <div class="sport-info">
+            <div>
+              <span>03 / FORÇA</span>
+              <h3>MUSCULAÇÃO</h3>
+            </div>
+            <span class="card-arrow" aria-hidden="true"></span>
+          </div>
+          <p>Força, disciplina e evolução no seu ritmo.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="statement" id="proposito" aria-labelledby="statement-title">
+      <p class="eyebrow">/ SOBRE A SPORTVIVA</p>
+      <h2 id="statement-title">O ESPORTE É MAIS<br>DO QUE <span>MOVIMENTO.</span><br>É UM JEITO DE VIVER.</h2>
+      <p>Nossa missão é aproximar pessoas do esporte por meio de informação simples, acessível e inspiradora.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo logo-sport" href="index.html">SPORT<span class="logo logo-viva">VIVA</span></a>
+    <p>DESCUBRA. PRATIQUE. VIVA.</p>
+    <a href="#inicio">VOLTAR AO TOPO</a>
+    <small>© 2026 SPORTVIVA — PROJETO EDUCACIONAL.</small>
+  </footer>
+
+  <script>
+    // JavaScript para abrir e fechar o menu em telas menores.
+    const menuButton = document.querySelector('.menu-toggle');
+    const mobileNav = document.querySelector('.mobile-nav');
+
+    function closeMenu() {
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Abrir menu');
+      mobileNav.hidden = true;
+    }
+
+    menuButton.addEventListener('click', () => {
+      const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+
+      menuButton.setAttribute('aria-expanded', String(!isOpen));
+      menuButton.setAttribute('aria-label', isOpen ? 'Abrir menu' : 'Fechar menu');
+      mobileNav.hidden = isOpen;
+    });
+
+    mobileNav.querySelectorAll('a').forEach(link =>
+      link.addEventListener('click', closeMenu)
+    );
+  </script>
+</body>
+
+</html>
